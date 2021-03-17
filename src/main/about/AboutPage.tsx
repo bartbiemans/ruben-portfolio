@@ -13,7 +13,7 @@ export const AboutPage = () => {
             </Col>
             <Col sm={4} className={'d-flex justify-content-start flex-column'}>
                 <div className={'about-title'}>Ruben</div>
-                <span>Drawings, animations and photo's. All from my own hands and brains.</span>
+                <span>Drawings, animations and photo's. All from my own hands and brains</span>
             </Col>
         </Row>
     )
