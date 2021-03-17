@@ -5,6 +5,7 @@ import {HomePage} from "./main/home/HomePage";
 import {Route, Router, Switch} from 'react-router';
 import {AboutPage} from "./main/about/AboutPage";
 import {createBrowserHistory} from 'history';
+import {Illustrations} from "./main/illustrations/Illustrations";
 
 const browserHistory = createBrowserHistory();
 
@@ -26,6 +27,7 @@ const renderRouting = () => {
           <Navbar/>
         <Switch>
           <Route exact path={'/about'} component={AboutPage}/>
+          <Route exact path={'/illustrations'} component={Illustrations}/>
           <Route exact path={'/'} component={HomePage}/>
         </Switch>
         </>
