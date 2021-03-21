@@ -6,7 +6,7 @@ export const Navbar = () => {
                 <NavItem url={''} text={'Home'}/>
                 <NavItem url={'/about'} text={'About'}/>
                 <NavItem url={'/illustrations'} text={'Illustrations'}/>
-                <NavItem url={''} text={'Animations'}/>
+                <NavItem url={'/animations'} text={'Animations'}/>
                 <NavItem url={''} text={'Boris'}/>
                 <div className={'nav-name'}>Ruben tips</div>
         </div>

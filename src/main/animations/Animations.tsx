@@ -1,10 +1,9 @@
 import React from "react";
-import {IllustrationComponent} from "../../components/IllustrationComponent";
 import {Col, Row} from "react-bootstrap";
 import images from "../../IllustrationPage.json";
+import {IllustrationComponent} from "../../components/IllustrationComponent";
 
-export const Illustrations = () => {
-
+export const Animations = () => {
     return (
         <>
             <Row className={'pt-5 pb-5'}>
