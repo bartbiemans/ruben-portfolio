@@ -1,0 +1,13 @@
+{
+  "illustrations":[
+    {
+      "imageSrc": "../../../Illustrations/model/img020.jpg",
+      "imageTitle": "2CV",
+      "imageText": "Text"
+    },{
+      "imageSrc": "../../../Illustrations/model/img021.jpg",
+      "imageTitle": "2CV",
+      "imageText": "Text"
+    }
+  ]
+}

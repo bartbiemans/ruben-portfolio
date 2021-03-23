@@ -7,6 +7,7 @@ import {AboutPage} from "./main/about/AboutPage";
 import {createBrowserHistory} from 'history';
 import {Illustrations} from "./main/illustrations/Illustrations";
 import {Animations} from "./main/animations/Animations";
+import {Photographs} from "./main/photographs/Photographs";
 
 const browserHistory = createBrowserHistory();
 
@@ -30,6 +31,7 @@ const renderRouting = () => {
           <Route exact path={'/about'} component={AboutPage}/>
           <Route exact path={'/illustrations'} component={Illustrations}/>
           <Route exact path={'/animations'} component={Animations}/>
+          <Route exact path={'/photographs'} component={Photographs}/>
           <Route exact path={'/'} component={HomePage}/>
         </Switch>
         </>

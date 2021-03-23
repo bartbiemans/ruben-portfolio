@@ -1,13 +1,13 @@
-import React from "react";
-import {Col, Row} from "react-bootstrap";
-import animations from "../../AnimationsPage.json";
+import photographs from "../../PhotographPage.json";
 import {IllustrationComponent} from "../../components/IllustrationComponent";
+import {Col, Row} from "react-bootstrap";
+import React from "react";
 
-export const Animations = () => {
+export const Photographs = () => {
     return (
         <>
             <Row className={'pt-5 pb-5'}>
-                {animations.illustrations.map((image) => {
+                {photographs.illustrations.map((image) => {
                     return (
                         <>
                             <Col sm={1}/>
